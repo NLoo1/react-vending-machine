@@ -1,10 +1,13 @@
 import './App.css';
+import { BrowserRouter } from 'react-router-dom';
 import VendingMachine from './VendingMachine'
 
 function App() {
   return (
     <div className="App">
-      <VendingMachine />
+      <BrowserRouter>
+        <VendingMachine />
+      </BrowserRouter>
     </div>
   );
 }
